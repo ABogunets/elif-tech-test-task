@@ -7,8 +7,8 @@ export const SharedLayout = () => {
     <>
       <Header>
         <nav>
-          <Link to="/">Shop</Link>
-          <Link to="/cart">Shopping Cart</Link>
+          <Link to="/shop">Shop</Link>
+          <Link to="cart">Shopping Cart</Link>
         </nav>
       </Header>
       <Container>

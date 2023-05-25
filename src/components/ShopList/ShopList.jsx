@@ -1,6 +1,5 @@
 // import PropTypes from "prop-types";
 // import { useState } from "react";
-import { useLocation } from "react-router-dom";
 import {
   ShopListWrapper,
   Link,
@@ -8,25 +7,14 @@ import {
 } from "components/ShopList/ShopList.styled";
 
 export const ShopList = () => {
-  const location = useLocation();
   return (
     <ShopListWrapper>
       <Title>Shops</Title>
-      <Link to={`/big-burger`} state={{ from: location }}>
-        Big-Burger
-      </Link>
-      <Link to={`/tasty-chicks`} state={{ from: location }}>
-        Tasty-Chicks
-      </Link>
-      <Link to={`/pizza-pasta`} state={{ from: location }}>
-        Pizza-Pasta
-      </Link>
-      <Link to={`/sushi-bar`} state={{ from: location }}>
-        Sushi-Bar
-      </Link>
-      <Link to={`/super-pastry`} state={{ from: location }}>
-        Super-Pastry
-      </Link>
+      <Link to={"big-burger"}>Big-Burger</Link>
+      <Link to={"tasty-chicks"}>Tasty-Chicks</Link>
+      <Link to={"pizza-pasta"}>Pizza-Pasta</Link>
+      <Link to={"sushi-bar"}>Sushi-Bar</Link>
+      <Link to={"super-pastry"}>Super-Pastry</Link>
     </ShopListWrapper>
   );
 };

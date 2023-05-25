@@ -5,6 +5,16 @@ export const Container = styled.div`
   /* background-color: #90c6f2; */
 `;
 
+export const ShopsWrapper = styled.div`
+  padding: 10px 10px;
+  background-color: #90c6f2;
+`;
+
+export const CartWrapper = styled.div`
+  padding: 10px 10px;
+  background-color: #90c6f2;
+`;
+
 export const Button = styled.button`
   display: block;
 

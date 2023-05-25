@@ -1,3 +1,4 @@
+// import { Button } from "pages/Cart-page.styled";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
@@ -44,6 +45,8 @@ export const Link = styled(NavLink)`
   border-radius: 5px;
   color: #373737;
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  /* background-color: ${({ isClicked }) =>
+    isClicked ? "#e4bd50" : "azure"}; */
   background-color: azure;
 
   /* text-transform: uppercase; */
@@ -54,11 +57,11 @@ export const Link = styled(NavLink)`
   text-align: center;
 
   &:hover {
+    background-color: beige;
+  }
+  &.active {
     background-color: #e4bd50;
   }
-  /* &.active {
-    background-color: #e4bd50;
-  } */
 `;
 
 // export const LinkBack = styled(NavLink)`

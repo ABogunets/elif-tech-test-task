@@ -1,14 +1,14 @@
 import { Container } from "./Shop-page.styled";
 import { ShopList } from "components/ShopList/ShopList";
-import { DishList } from "components/DishList/DishList";
+import { Outlet } from "react-router-dom";
 
-const Shop = () => {
+const ShopPage = () => {
   return (
     <Container>
       <ShopList />
-      <DishList />
+      <Outlet />
     </Container>
   );
 };
 
-export default Shop;
+export default ShopPage;
