@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const DishWrapper = styled.li`
+export const CartWrapper = styled.li`
   /* outline: 1px solid tomato; */
 
   border-radius: 5px;

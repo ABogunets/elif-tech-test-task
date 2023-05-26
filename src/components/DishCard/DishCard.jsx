@@ -1,14 +1,24 @@
 // import PropTypes from "prop-types";
 import { DishWrapper, Image } from "components/DishCard/DishCard.styled";
+import { useContext } from "react";
+import { Context } from "App";
 
-export const DishCard = ({ imageURL, dishName, price, onClick }) => {
+export const DishCard = ({ id, imageURL, dishName, price }) => {
+  const context = useContext(Context);
+  const dishCard = [{ id, imageURL, dishName, price }];
   return (
     // <DishWrapper onClick={() => onClick(largeImage)}>
     <DishWrapper>
       <Image src={imageURL} alt="" />
       <h2>{dishName}</h2>
       <p>{price}$</p>
-      <button>Add to Cart</button>
+      <button
+        onClick={() =>
+          context.setCartData((prevCartData) => [...prevCartData, ...dishCard])
+        }
+      >
+        Add to Cart
+      </button>
     </DishWrapper>
   );
 };
