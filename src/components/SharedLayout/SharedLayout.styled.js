@@ -4,11 +4,6 @@ import { NavLink } from "react-router-dom";
 export const Container = styled.div``;
 
 export const Header = styled.header`
-  top: 0;
-  left: 0;
-  position: sticky;
-  z-index: 100;
-
   background-color: #fff;
   display: flex;
   align-items: center;

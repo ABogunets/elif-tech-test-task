@@ -2,7 +2,7 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import { lazy, useState } from "react";
 import React from "react";
 import { SharedLayout } from "./components/SharedLayout/SharedLayout";
-import { DishLayout } from "components/DishLayout/DishLayout";
+import { DishLayout } from "components/Shop/DishLayout/DishLayout";
 
 const ShopPage = lazy(() => import("pages/Shop-page"));
 const CartPage = lazy(() => import("pages/Cart-page"));
