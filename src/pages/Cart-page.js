@@ -14,9 +14,11 @@ import { Context } from "App";
 const CartPage = () => {
   const context = useContext(Context);
   const totalPrice = () => {
-    return context.cartData.reduce((total, card) => {
-      return total + card.price * card.quantity;
-    }, 0);
+    return context.cartData
+      .reduce((total, card) => {
+        return total + card.price * card.quantity;
+      }, 0)
+      .toFixed(2);
   };
   return (
     <Container>

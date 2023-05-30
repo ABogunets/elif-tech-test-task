@@ -31,8 +31,9 @@ export const DishWrapper = styled.li`
 `;
 
 export const Image = styled.img`
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 225px;
+  object-fit: cover;
 
   border-radius: 5px 5px 0 0;
 

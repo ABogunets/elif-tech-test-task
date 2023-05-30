@@ -1,4 +1,3 @@
-// import PropTypes from 'prop-types';
 import {
   CartListWrapper,
   Container,
@@ -29,13 +28,3 @@ export const CartList = () => {
     </Container>
   );
 };
-
-// ImageGallery.propTypes = {
-//   items: PropTypes.arrayOf(
-//     PropTypes.shape({
-//       id: PropTypes.number.isRequired,
-//       webformatURL: PropTypes.string.isRequired,
-//       largeImageURL: PropTypes.string.isRequired,
-//     })
-//   ),
-// };

@@ -51,6 +51,7 @@ export const UserForm = ({ totalPrice }) => {
     };
     placeOrder();
     form.reset();
+    context.setCartData([]);
   };
 
   return (
