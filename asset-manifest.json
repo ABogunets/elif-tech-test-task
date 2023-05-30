@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/elif-tech-test-task/static/css/main.dba98678.css",
-    "main.js": "/elif-tech-test-task/static/js/main.e720264e.js",
+    "main.js": "/elif-tech-test-task/static/js/main.bcbcff70.js",
     "static/js/594.5b0b6bb5.chunk.js": "/elif-tech-test-task/static/js/594.5b0b6bb5.chunk.js",
-    "static/js/791.3d2dca44.chunk.js": "/elif-tech-test-task/static/js/791.3d2dca44.chunk.js",
+    "static/js/791.8297dc95.chunk.js": "/elif-tech-test-task/static/js/791.8297dc95.chunk.js",
     "static/media/default-dish.jpg": "/elif-tech-test-task/static/media/default-dish.c444d9bad5c9339097fe.jpg",
     "index.html": "/elif-tech-test-task/index.html",
     "main.dba98678.css.map": "/elif-tech-test-task/static/css/main.dba98678.css.map",
-    "main.e720264e.js.map": "/elif-tech-test-task/static/js/main.e720264e.js.map",
+    "main.bcbcff70.js.map": "/elif-tech-test-task/static/js/main.bcbcff70.js.map",
     "594.5b0b6bb5.chunk.js.map": "/elif-tech-test-task/static/js/594.5b0b6bb5.chunk.js.map",
-    "791.3d2dca44.chunk.js.map": "/elif-tech-test-task/static/js/791.3d2dca44.chunk.js.map"
+    "791.8297dc95.chunk.js.map": "/elif-tech-test-task/static/js/791.8297dc95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dba98678.css",
-    "static/js/main.e720264e.js"
+    "static/js/main.bcbcff70.js"
   ]
 }
